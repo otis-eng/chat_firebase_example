@@ -12,6 +12,7 @@ class ChatHeader extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Container(
+        color:Colors.blue,
         margin: const EdgeInsets.only(top:10),
         padding: const EdgeInsets.all(20),
         width: width,
@@ -28,7 +29,7 @@ class ChatHeader extends StatelessWidget {
                           height: 45, width: 45, fit: BoxFit.cover)),
                   Container(
                       margin: const EdgeInsets.only(left: 10),
-                      child: const Text("VTeach",
+                      child: const Text("Firebase Chat Example",
                           style: TextStyle(
                               fontSize: 27,
                               fontFamily: "Regular",

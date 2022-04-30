@@ -29,7 +29,7 @@ List<User> user = [
     double witdh = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Material(
-        color:const Color.fromRGBO(41, 47, 63, 1),
+        color: Colors.white,
         child:Column(
           children: [
             ChatHeader(user),
